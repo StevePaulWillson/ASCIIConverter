@@ -34,7 +34,7 @@ public class MainActivity extends ActionBarActivity {
             char character = characterValue.charAt(0);
             asciiValue = (int) character;
             TextView asciiTextView = (TextView) findViewById(R.id.ascii);
-            asciiTextView.setText("" + asciiValue);
+            asciiTextView.setText("ASCII value: " + asciiValue);
         }
     }
 }
